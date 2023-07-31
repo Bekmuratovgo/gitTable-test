@@ -1,0 +1,28 @@
+.popover_modal {
+  background: #000000;
+  color: #7C7C7C;
+  border-radius: 3px;
+}
+.popover_modal > h4 {
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0px 0 5px;
+}
+.popover {
+  border-radius: 0px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  background: none;
+}
+.popover:hover {
+  background: none;
+  border: none;
+}
+.popover:focus {
+  background: none !important;
+  border: none !important;
+}

@@ -1,0 +1,63 @@
+body {
+  background: #dbdbdb;
+}
+.table_wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.table {
+  width: 90%;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+.table_week {
+  display: flex;
+  flex-direction: column;
+  height: 188px;
+  margin: 0 5px;
+  color: #959494;
+}
+
+.table_weekWednesday {
+  margin-top: 23px;
+}
+.table_weekFriday {
+  margin-top: 23px;
+}
+
+.table_inner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 180px;
+  width: 87%;
+}
+.container {
+  width: 65%;
+}
+.months {
+  width: 100%;
+  display: flex;
+}
+.months_inner {
+  margin: 0 2px; 
+  color: #959494;
+}
+/* RANGE */
+.range {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.range > h3 {
+  color: #959494;
+  font-size: 13px;
+  margin: 0 10px;
+  font-weight: 400;
+}
